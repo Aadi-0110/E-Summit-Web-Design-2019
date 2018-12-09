@@ -164,8 +164,12 @@ html,
  }
  
  header.masthead .header-content h1 {
-   font-size: 30px;
+   font-size: 70px;
  }
+
+ header.masthead .header-content h2 {
+  font-size: 28px;
+}
  
  header.masthead .device-container {
    max-width: 325px;
@@ -195,6 +199,7 @@ html,
      max-width: 325px;
    }
  }
+
  
  section.download {
    position: relative;
@@ -282,10 +287,11 @@ html,
  
  section.cta {
    position: relative;
-   padding: 250px 0;
-   background-image: url("../img/bg-cta.jpg");
+   padding: 150px 0;
+   background-image: url("../img/entrepreneur-1340649_1920.jpg");
    background-position: center;
    background-size: cover;
+   background-blend-mode: color-dodge;
  }
  
  section.cta .cta-content {
@@ -300,6 +306,10 @@ html,
    margin-bottom: 25px;
    color: white;
  }
+
+ section.cta .cta-content h5 {
+  color: white;
+}
  
  @media (min-width: 768px) {
    section.cta .cta-content h2 {
